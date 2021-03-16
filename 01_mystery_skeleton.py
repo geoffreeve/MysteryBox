@@ -24,7 +24,7 @@ class Start:
                                        command=lambda: self.to_game(1))
         self.lowstakes_button.grid(row=2, pady=10)
 
-    def to_game(self,stakes):
+    def to_game(self, stakes):
         starting_balance = self.start_amount_entry.get()
         Game(self, stakes, starting_balance)
 
