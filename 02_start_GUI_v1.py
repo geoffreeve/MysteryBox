@@ -5,6 +5,10 @@ import random
 
 class Start:
     def __init__(self, parent):
+
+        self.starting_funds = IntVar()
+        self.starting_funds.set(0)
+
         # GUI to get starting balance and stakes
         self.start_frame = Frame(padx=10, pady=10)
         self.start_frame.grid()
@@ -28,7 +32,7 @@ class Start:
         self.entry_error_frame = Frame(self.start_frame, width=200)
         self.entry_error_frame.grid(row=2)
 
-        self.start_amount_entry = Entry(self.start_frame, font="Arial 19 bold", width=10)
+        self.start_amount_entry = Entry(self.entry_error_frame, font="Arial 19 bold", width=10)
         self.start_amount_entry.grid(row=0, column=0)
 
         self.add_funds_button = Button(self.entry_error_frame, font="Arial 14 bold",
@@ -129,17 +133,19 @@ class Start:
             self.starting_funds.set(starting_balance)
 
     def to_game(self, stakes):
+
+        # Retrieve starting balance
         starting_balance = self.start_amount_entry.get()
 
-        # Set error background colors (and assume that there are no
-        # Errors at the start..
-        error_back = "#ffafaf"
-        has_errors = "no"
+        Game(self, stakes, starting_balance)
+
+        root.withdraw()
 
         # Change background to white (for testing purposes))..
         self.start_amount_entry.config(bg="white")
         self.amount_error_label.config(text="")
 
+        error_back = "#ffafaf"
         try:
             starting_balance = int(starting_balance)
 
