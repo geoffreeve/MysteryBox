@@ -144,6 +144,7 @@ class Start:
         # Change background to white (for testing purposes))..
         self.start_amount_entry.config(bg="white")
         self.amount_error_label.config(text="")
+        has_errors ="no"
 
         error_back = "#ffafaf"
         try:
@@ -189,6 +190,6 @@ class Game:
 # main routine
 if __name__ == "__main__":
     root = Tk()
-    root.title("title goes here")
+    root.title("Mystery Box Game")
     something = Start(root)
     root.mainloop()
