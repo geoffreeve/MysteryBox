@@ -137,8 +137,6 @@ class Start:
         # Retrieve starting balance
         starting_balance = self.start_amount_entry.get()
 
-        Game(self, stakes, starting_balance)
-
         root.withdraw()
 
         # Change background to white (for testing purposes))..
