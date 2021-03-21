@@ -45,16 +45,19 @@ class Start:
                                pady=10, text="Open Boxes")
         self.open_box.grid(row=3, pady=10)
 
+        self.info_frame = Frame(self.start_frame)
+        self.info_frame.grid()
+
         # Game cost info (row 4)
-        self.game_cost = Label(self.start_frame, font="arial 13 bold", fg="green",
+        self.game_cost = Label(self.info_frame, font="arial 13 bold", fg="green",
                                text="Game Cost: {}".format("?"))
         self.game_cost.grid()
         # Payback info (row 5)
-        self.payback_info = Label(self.start_frame, font="arial 13 bold", fg="green",
+        self.payback_info = Label(self.info_frame, font="arial 13 bold", fg="green",
                                   text="Payback: {}".format("?"))
         self.payback_info.grid()
         # Payback info (row 5)
-        self.current_balance_label = Label(self.start_frame, font="arial 13 bold", fg="green",
+        self.current_balance_label = Label(self.info_frame, font="arial 13 bold", fg="green",
                                            text="Current Balance: {}".format("?"))
         self.current_balance_label.grid()
 
