@@ -61,10 +61,18 @@ class Start:
                                            text="Current Balance: {}".format("?"))
         self.current_balance_label.grid()
 
-        # Help/Rules | GameStats Buttons (row 8)
-        self.help_button = Button(self.start_frame, font="Arial 13 bold", bg="light grey",
-                                  text="Help / Rules")
-        self.help_button.grid(row=6, column=0)
+        # Last buttons frame
+        self.help_frame = Frame(self.start_frame)
+        self.help_frame.grid()
+
+        # Help/Rules | GameStats Buttons (row 0, column 0-1)
+        self.help_button = Button(self.help_frame, font="Arial 13 bold", bg="grey",
+                                  fg="white", text="Help / Rules")
+        self.help_button.grid(row=0, column=0, padx=4)
+
+        self.stats_button = Button(self.help_frame, font="Arial 13 bold", bg="dark blue",
+                                   fg="white", text="Game Stats...")
+        self.stats_button.grid(row=0, column=1)
 
 
 class Game:
