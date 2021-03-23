@@ -35,8 +35,18 @@
       <file leaf-file-name="AA_compiled_game_v1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="116" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+            <state relative-caret-position="-284">
+              <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AA_compiled_game_v2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="266" column="11" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -46,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,8 +75,8 @@
       <file leaf-file-name="05_Game_Playable_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="145" column="74" selection-start-line="145" selection-start-column="74" selection-end-line="145" selection-end-column="74" />
+            <state relative-caret-position="799">
+              <caret line="163" column="46" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/04_Prize_generation.py" />
         <option value="$PROJECT_DIR$/03_Game_GUI.py" />
         <option value="$PROJECT_DIR$/newGUI.py" />
+        <option value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
         <option value="$PROJECT_DIR$/05_Game_Playable_v2.py" />
       </list>
     </option>
@@ -175,23 +186,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.05_Game_Playable_v2">
-    <configuration default="false" name="03_Game_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MysteryBox" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_Game_GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="newGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,6 +250,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MysteryBox" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Game_Playable_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AA_compiled_game_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysteryBox" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -395,19 +406,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_Game_GUI" />
-      <item index="1" class="java.lang.String" itemvalue="Python.newGUI" />
-      <item index="2" class="java.lang.String" itemvalue="Python.rh" />
-      <item index="3" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
-      <item index="4" class="java.lang.String" itemvalue="Python.05_Game_Playable_v2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.newGUI" />
+      <item index="1" class="java.lang.String" itemvalue="Python.rh" />
+      <item index="2" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.05_Game_Playable_v2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.05_Game_Playable_v2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.newGUI" />
-        <item index="2" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rh" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03_Game_GUI" />
+        <item index="1" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.newGUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
+        <item index="4" class="java.lang.String" itemvalue="Python.rh" />
       </list>
     </recent_temporary>
   </component>
@@ -671,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="116" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newGUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
@@ -694,6 +697,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_Prize_generation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -702,18 +721,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="277">
+          <caret line="266" column="11" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="145" column="74" selection-start-line="145" selection-start-column="74" selection-end-line="145" selection-end-column="74" />
+        <state relative-caret-position="799">
+          <caret line="163" column="46" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
           <folding />
         </state>
       </provider>
