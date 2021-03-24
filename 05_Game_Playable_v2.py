@@ -134,19 +134,19 @@ class Game:
             prize_num = random.randint(1, 100)
 
             if 0 < prize_num <= 5:
-                prize = PhotoImage(file="Mystery_box_images\gold.gif")
+                prize = PhotoImage(file="Mystery_box_images\gold_low.gif")
                 prize_list = "gold\n(${})".format(5 * stakes_multiplier)
                 round_winnings += 5 * stakes_multiplier
             elif 5 < prize_num <= 25:
-                prize = PhotoImage(file="Mystery_box_images\silver.gif")
+                prize = PhotoImage(file="Mystery_box_images\silver_low.gif")
                 prize_list = "silver\n(${})".format(2 * stakes_multiplier)
                 round_winnings += 2 * stakes_multiplier
             elif 25 < prize_num <= 65:
-                prize = PhotoImage(file="Mystery_box_images\copper.gif")
+                prize = PhotoImage(file="Mystery_box_images\copper_low.gif")
                 prize_list = "copper\n(${})".format(1 * stakes_multiplier)
                 round_winnings += stakes_multiplier
             else:
-                prize = PhotoImage(file="lead.gif")
+                prize = PhotoImage(file="lead_low.gif")
                 prize_list = "lead\n ($0)"
 
             prizes.append(prize)

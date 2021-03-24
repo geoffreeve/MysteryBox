@@ -23,8 +23,8 @@
       <file leaf-file-name="01_mystery_skeleton.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -35,18 +35,18 @@
       <file leaf-file-name="AA_compiled_game_v1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-284">
-              <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+            <state relative-caret-position="178">
+              <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AA_compiled_game_v2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AA_compiled_game_v2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="266" column="11" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="11" />
+            <state relative-caret-position="310">
+              <caret line="294" column="55" selection-start-line="294" selection-start-column="55" selection-end-line="294" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,17 @@
         <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+                <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+                <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,26 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05_Game_Playable_v2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="163" column="46" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newGUI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -109,21 +98,21 @@
       <list>
         <option value="$PROJECT_DIR$/00_tkinter_template.py" />
         <option value="$PROJECT_DIR$/02_start_GUI.py" />
-        <option value="$PROJECT_DIR$/rh.py" />
         <option value="$PROJECT_DIR$/02_start_GUI_v1.py" />
         <option value="$PROJECT_DIR$/AA_compiled_game_v1.py" />
         <option value="$PROJECT_DIR$/01_mystery_skeleton.py" />
         <option value="$PROJECT_DIR$/04_Prize_generation.py" />
         <option value="$PROJECT_DIR$/03_Game_GUI.py" />
         <option value="$PROJECT_DIR$/newGUI.py" />
-        <option value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
         <option value="$PROJECT_DIR$/05_Game_Playable_v2.py" />
+        <option value="$PROJECT_DIR$/rh.py" />
+        <option value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1148" />
+    <option name="width" value="1147" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -151,7 +140,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -173,6 +161,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,8 +174,8 @@
       <recent name="C:\Users\reevesg70110\OneDrive - Massey High School\Documents\GitHub\MysteryBox" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.05_Game_Playable_v2">
-    <configuration default="false" name="newGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.AA_compiled_game_v2">
+    <configuration default="false" name="AA_compiled_game_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -198,7 +187,58 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MysteryBox" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newGUI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="01_mystery_skeleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysteryBox" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_mystery_skeleton.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AA_compiled_game_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysteryBox" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_compiled_game_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="02_start_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MysteryBox" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_start_GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -216,57 +256,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MysteryBox" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rh.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="04_Prize_generation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MysteryBox" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_Prize_generation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="05_Game_Playable_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MysteryBox" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_Game_Playable_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AA_compiled_game_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MysteryBox" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AA_compiled_game_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -406,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.newGUI" />
-      <item index="1" class="java.lang.String" itemvalue="Python.rh" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05_Game_Playable_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.01_mystery_skeleton" />
+      <item index="2" class="java.lang.String" itemvalue="Python.AA_compiled_game_v1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.02_start_GUI" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rh" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.05_Game_Playable_v2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.newGUI" />
-        <item index="3" class="java.lang.String" itemvalue="Python.04_Prize_generation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.rh" />
+        <item index="0" class="java.lang.String" itemvalue="Python.AA_compiled_game_v2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.rh" />
+        <item index="2" class="java.lang.String" itemvalue="Python.02_start_GUI" />
+        <item index="3" class="java.lang.String" itemvalue="Python.AA_compiled_game_v1" />
+        <item index="4" class="java.lang.String" itemvalue="Python.01_mystery_skeleton" />
       </list>
     </recent_temporary>
   </component>
@@ -436,15 +425,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1148" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1147" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16696113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16710876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25720385" sideWeight="0.50706714" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25720385" sideWeight="0.5106007" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25720385" sideWeight="0.49293286" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25720385" sideWeight="0.48939928" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -476,6 +465,141 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Prize_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py" />
+    <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Prize_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py" />
+    <entry file="file://$PROJECT_DIR$/newGUI.py" />
+    <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py" />
+    <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_Prize_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py" />
+    <entry file="file://$PROJECT_DIR$/newGUI.py" />
+    <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
@@ -496,7 +620,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -508,22 +641,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py" />
+    <entry file="file://$PROJECT_DIR$/newGUI.py" />
     <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -546,18 +665,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/newGUI.py" />
     <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -580,7 +701,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01_mystery_skeleton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -675,44 +805,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_start_GUI.py" />
-    <entry file="file://$USER_HOME$/Downloads/00_tkinter_template.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="86" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/00_tkinter_template.py" />
+    <entry file="file://$PROJECT_DIR$/newGUI.py" />
     <entry file="file://$PROJECT_DIR$/03_Game_GUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1616366173000" expanded="false" signature="0:95" ph="import ..." />
+            <marker date="1616366173000" expanded="true" signature="110:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="142:400" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="424:611" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="625:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="684:1761" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1790:2251" ph="..." />
+            <marker date="1616366173000" expanded="true" signature="1904:2004" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py" />
     <entry file="file://$PROJECT_DIR$/04_Prize_generation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -721,18 +833,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py">
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="266" column="11" selection-start-line="266" selection-start-column="11" selection-end-line="266" selection-end-column="11" />
+        <state relative-caret-position="178">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_Game_Playable_v2.py">
+    <entry file="file://$PROJECT_DIR$/rh.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="163" column="46" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
+        <state relative-caret-position="493">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AA_compiled_game_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="294" column="55" selection-start-line="294" selection-start-column="55" selection-end-line="294" selection-end-column="55" />
           <folding />
         </state>
       </provider>
