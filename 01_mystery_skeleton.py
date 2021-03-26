@@ -15,25 +15,17 @@ class Start:
                                        font="Arial 19 bold")
         self.mystery_box_label.grid(row=1)
 
-        # Entry box.. (row 1)
-        self.start_amount_entry = Entry(self.start_frame, font="Arial 16 bold")
-        self.start_amount_entry.grid(row=2)
+        # Help button (row 2)
+        self.help_button = Button(self.start_frame, text="Help",
+                                  command=self.to_help)
+        self.help_button.grid(row=2, pady=10)
 
-        # Play button (row 2)
-        self.lowstakes_button = Button(text="Low ($5)",
-                                       command=lambda: self.to_game(1))
-        self.lowstakes_button.grid(row=2, pady=10)
-
-    def to_game(self, stakes):
-        starting_balance = self.start_amount_entry.get()
-        Game(self, stakes, starting_balance)
+    def to_help(self):
+        get_help = Help(self)
 
 
-class Game:
-    def __init__(self, partner, stakes, starting_balance):
-        print(stakes)
-        print(starting_balance)
-
+class Help:
+    def __init__(self, partner):
         partner.lowstakes_button.config(state=DISABLED)
 
         # Initialise variables
