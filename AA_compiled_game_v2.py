@@ -302,7 +302,7 @@ class Game:
                 prize_list = "copper (${})".format(1 * stakes_multiplier)
                 round_winnings += stakes_multiplier
             else:
-                prize = PhotoImage(file="lead_low.gif")
+                prize = PhotoImage(file="Mystery_box_images\lead.gif")
                 prize_list = "lead ($0)"
 
             prizes.append(prize)

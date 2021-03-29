@@ -111,6 +111,21 @@ class GameStats:
                                               anchor="w")
         self.games_played_value_label.grid(row=4, column=1, padx=0)
 
+        # Export / Dismiss buttons Frame (row 2)
+        self.export_dismiss_frame = Frame(self.stats_frame)
+        self.export_dismiss_frame.grid(row=3, pady=10)
+
+        # Export button
+        self.export_button = Button(self.export_dismiss_frame, text="Export", fg='white', bg='dark blue',
+                                    font="Arial 12 bold",
+                                    )
+        self.export_button.grid(row=0, column=0, padx=5)
+
+        # Dismiss button
+        self.dismiss_button = Button(self.export_dismiss_frame, text="Dismiss", fg='white', bg="dark red",
+                                     font="arial 12 bold", command=partial(self.close_stats, partner))
+        self.dismiss_button.grid(row=0, column=1)
+
     def close_stats(self, partner):
         # Put help button back to normal..
         partner.stats_button.config(state=NORMAL)

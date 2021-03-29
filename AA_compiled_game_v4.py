@@ -84,11 +84,11 @@ class Start:
         starting_balance = self.start_amount_entry.get()
 
         # Set error background colors (and assume that there are no
-        # Errors at the start..
+        # Errors at the start)..
         error_back = "#ffafaf"
         has_errors = "no"
 
-        # Change background to white (for testing purposes))..
+        # Change background to white (for testing purposes)..
         self.start_amount_entry.config(bg="white")
         self.amount_error_label.config(text="")
 
@@ -270,7 +270,8 @@ class Game:
         self.help_button.grid(row=0, column=0, padx=2)
 
         self.stats_button = Button(self.help_export_frame, text="Game Stats...",
-                                   font="arial 15 bold", bg="#003366", fg="white")
+                                   font="arial 15 bold", bg="#003366", fg="white",
+                                   command=lambda: self.to_stats())
         self.stats_button.grid(row=0, column=1, padx=2)
 
         # Quit Button
@@ -278,6 +279,9 @@ class Game:
                                   bg="#660000", font="arial 15 bold", width=20,
                                   command=self.to_quit, padx=10, pady=10)
         self.quit_button.grid(row=6, pady=10)
+
+    def to_stats(self, game_history, game_stats):
+        GameStats(self, game_history, game_stats)
 
     def reveal_boxes(self):
         # Retrieve the balance from the initial function..
@@ -303,7 +307,7 @@ class Game:
                 prize_list = "copper (${})".format(1 * stakes_multiplier)
                 round_winnings += stakes_multiplier
             else:
-                prize = PhotoImage(file="lead_low.gif")
+                prize = PhotoImage(file="Mystery_box_images\lead.gif")
                 prize_list = "lead ($0)"
 
             prizes.append(prize)
@@ -497,6 +501,20 @@ class GameStats:
         self.games_played_value_label = Label(self.details_frame, font=content, text=len(game_history),
                                               anchor="w")
         self.games_played_value_label.grid(row=4, column=1, padx=0)
+
+        # Export / Dismiss buttons Frame (row 2)
+        self.export_dismiss_frame = Frame(self.stats_frame)
+        self.export_dismiss_frame.grid(row=3, pady=10)
+
+        # Export button
+        self.export_button = Button(self.export_dismiss_frame, text="Export", fg='white', bg='dark blue',
+                                    font="Arial 12 bold")
+        self.export_button.grid(row=0, column=0, padx=5)
+
+        # Dismiss button
+        self.dismiss_button = Button(self.export_dismiss_frame, text="Dismiss", fg='white', bg="dark red",
+                                     font="arial 12 bold", command=partial(self.close_stats, partner))
+        self.dismiss_button.grid(row=0, column=1)
 
     def close_stats(self, partner):
         # Put help button back to normal..
