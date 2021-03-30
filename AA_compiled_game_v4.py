@@ -271,7 +271,7 @@ class Game:
 
         self.stats_button = Button(self.help_export_frame, text="Game Stats...",
                                    font="arial 15 bold", bg="#003366", fg="white",
-                                   command=lambda: self.to_stats())
+                                   command=lambda: self.to_stats(self.round_stats_list, self.game_stats_list))
         self.stats_button.grid(row=0, column=1, padx=2)
 
         # Quit Button

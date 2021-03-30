@@ -15,10 +15,12 @@ class Start:
     def to_game(self):
         # Retrieve starting balance
         starting_balance = 50
-        stakes = 2
+        stakes = 1
 
-        self.start_frame.destroy()
         Game(self, stakes, starting_balance)
+
+        # Hide start up window
+        self.start_frame.destroy()
 
 
 class Game:
