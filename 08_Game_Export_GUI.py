@@ -117,8 +117,7 @@ class GameStats:
 
         # Export button
         self.export_button = Button(self.export_dismiss_frame, text="Export", fg='white', bg='dark blue',
-                                    font="Arial 12 bold",
-                                    )
+                                    font="Arial 12 bold", command=lambda: Export(partner, game_history, game_stats))
         self.export_button.grid(row=0, column=0, padx=5)
 
         # Dismiss button
@@ -136,7 +135,7 @@ class Export:
         print(game_history)
 
         # Disable export button
-        partner.export_button.config(state=DISABLED)
+        #partner.export_button.config(state=DISABLED)
 
         # Sets up child window (ie: export box)
         self.export_box = Toplevel()

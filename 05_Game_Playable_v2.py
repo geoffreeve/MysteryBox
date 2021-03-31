@@ -128,19 +128,26 @@ class Game:
         round_winnings = 0
         prizes = []
         stats_prizes = []
+
+        # Allows photo to change depending on stakes.
+        # Lead not in the list as that is always 0
+        copper = ["Mystery_box_images\copper_low.gif", "Mystery_box_images\copper_med.gif", "Mystery_box_images\copper_high.gif"]
+        silver = ["Mystery_box_images\silver_low.gif", "Mystery_box_images\silver_med.gif", "Mystery_box_images\silver_high.gif"]
+        gold = ["Mystery_box_images\gold_low.gif", "Mystery_box_images\gold_med.gif", "Mystery_box_images\gold_high.gif"]
+
         for item in range(0, 3):
             prize_num = random.randint(1, 100)
 
             if 0 < prize_num <= 5:
-                prize = PhotoImage(file="Mystery_box_images\gold_low.gif")
+                prize = PhotoImage(file=gold[stakes_multiplier-1])
                 prize_list = "gold\n(${})".format(5 * stakes_multiplier)
                 round_winnings += 5 * stakes_multiplier
             elif 5 < prize_num <= 25:
-                prize = PhotoImage(file="Mystery_box_images\silver_low.gif")
+                prize = PhotoImage(file=silver[stakes_multiplier-1])
                 prize_list = "silver\n(${})".format(2 * stakes_multiplier)
                 round_winnings += 2 * stakes_multiplier
             elif 25 < prize_num <= 65:
-                prize = PhotoImage(file="Mystery_box_images\copper_low.gif")
+                prize = PhotoImage(file=copper[stakes_multiplier-1])
                 prize_list = "copper\n(${})".format(1 * stakes_multiplier)
                 round_winnings += stakes_multiplier
             else:
