@@ -357,7 +357,6 @@ class Game:
                                      5 * stakes_multiplier, round_winnings,
                                      current_balance)
         self.round_stats_list.append(round_summary)
-        print(self.round_stats_list)
         # Edit label so user can see their balance
         self.balance_label.config(text=balance_statement)
 
@@ -516,7 +515,7 @@ class GameStats:
 
         # Export button
         self.export_button = Button(self.export_dismiss_frame, text="Export", fg='white', bg='dark blue',
-                                    font="Arial 12 bold")
+                                    font="Arial 12 bold", command=lambda: self.export(partner, game_history, game_stats))
         self.export_button.grid(row=0, column=0, padx=5)
 
         # Dismiss button
@@ -528,6 +527,107 @@ class GameStats:
         # Put help button back to normal..
         partner.stats_button.config(state=NORMAL)
         self.stats_box.destroy()
+
+    def export(self, partner, game_history, all_game_stats):
+        Export(self, game_history, all_game_stats)
+
+
+class Export:
+    def __init__(self, partner, game_history, all_game_stats):
+
+        # Disable export button
+        partner.export_button.config(state=DISABLED)
+
+        # Sets up child window (ie: export box)
+        self.export_box = Toplevel()
+
+        # If users press cross at top, closes export and 'releases' export button
+        self.export_box.protocol('WM_DELETE_WINDOW', partial(self.close_export, partner))
+
+        # Set up GUI Frame
+        self.export_frame = Frame(self.export_box, width=300)
+        self.export_frame.grid()
+
+        # Set up Export heading (row 0)
+        self.how_heading = Label(self.export_frame, text="Export / Instructions",
+                                font='arial 14 bold')
+        self.how_heading.grid(row=0)
+
+        # Export Instructions (label, row 1)
+        self.export_text = Label(self.export_frame, text="Enter a filename in the " \
+                                "box below and press the Save button to save your calculation" \
+                                " history to a text file.", justify=LEFT, width=40, wrap=250)
+        self.export_text.grid(row=2, pady=10)
+
+        # Filename Entry Box (row 3)
+        self.filename_entry = Entry(self.export_frame, width=20, font="arial 14 bold", 
+                                    justify=CENTER)
+        self.filename_entry.grid(row=3, pady=10)
+
+        # Save / Cancel Frame (row 5)
+        self.save_cancel_frame = Frame(self.export_frame)
+        self.save_cancel_frame.grid(row=5, pady=10)
+
+        # Save and Cancel buttons (row 0 of save_cancel_frame)
+        self.save_button = Button(self.save_cancel_frame, text="Save", font="Arial 15 bold",
+        bg="#003366", fg="white", command=partial(lambda: self.save_history(partner, game_history, all_game_stats)))
+        self.save_button.grid(row=0, column=0)
+
+    def close_export(self, partner):
+        partner.export_button.config(state=NORMAL)
+        self.export_box.destroy()
+
+
+    def save_history(self, partner, game_history, game_stats):
+
+        # Regular expression to check filename is valid.
+        valid_char = "[A-Za-z0-9_]"
+        has_errors = "no"
+
+        filename = self.filename_entry.get()
+        print(filename)
+
+        for letter in filename:
+            if re.match(valid_char, letter):
+                continue
+            elif letter == " ":
+                problem = "(No spaces allowed)"
+            else:
+                problem = ("(No {}'s allowed".format(letter))
+            has_error = "yes"
+            break
+        
+        if filename == "":
+            problem = "Can't be blank"
+            has_error = 'yes'
+        
+        if has_errors == "yes":
+            # Display error message
+            self.save_error_label.config(text="Invalid filename - {}".format(problem))
+            # Change entry box background to pink
+            self.filename_entry.config(bg="#ffafaf")
+            print()
+        else:
+            # If there are no errors, generate text file and then close dialogue
+            # add .txt suffix!
+            filename = filename + ".txt"
+
+            # Create file to hold data
+            f = open(filename, "w+")
+
+            # Heading for stats
+            f.write("Game Statistics\n\n")
+
+            # Game stats
+            for round in game_stats:
+                f.write(str(round) + "\n")
+
+            # Heading for rounds
+            f.write("\nRound Details\n\n")
+
+            # Add new line at the end of each item
+            for item in game_history:
+                f.write(item + "\n")
 
 
 # main routine
