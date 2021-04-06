@@ -1,6 +1,7 @@
 from tkinter import *
 from functools import partial # To prevent unwanted windows
 import random
+import re
 
 
 class Start:
@@ -75,10 +76,6 @@ class Start:
         self.medium_stakes_button.config(state=DISABLED)
         self.high_stakes_button.config(state=DISABLED)
 
-        # Help button
-        self.help_button = Button(self.start_frame, text="How To Play",
-                                  bg="#808080", fg="white", font=button_font)
-        self.help_button.grid(row=4, pady=10)
 
     def check_funds(self):
         starting_balance = self.start_amount_entry.get()
@@ -181,9 +178,6 @@ class Start:
 
 class Game:
     def __init__(self, partner, stakes, starting_balance):
-        print(stakes)
-        print(starting_balance)
-
         # Initialise variables
         self.balance = IntVar()
 
@@ -479,7 +473,7 @@ class GameStats:
                                            anchor="e")
         self.current_balance_label.grid(row=1, column=0, padx=0)
 
-        self.current_balance_value_label = Label(self.details_frame, font=content, text="${}".format(game_stats[0]),
+        self.current_balance_value_label = Label(self.details_frame, font=content, text="${}".format(game_stats[1]),
                                                  anchor="w")
         self.current_balance_value_label.grid(row=1, column=1, padx=0)
 
@@ -550,7 +544,7 @@ class Export:
 
         # Set up Export heading (row 0)
         self.how_heading = Label(self.export_frame, text="Export / Instructions",
-                                font='arial 14 bold')
+                                font='arial 14 bold', pady=10)
         self.how_heading.grid(row=0)
 
         # Export Instructions (label, row 1)
@@ -559,10 +553,14 @@ class Export:
                                 " history to a text file.", justify=LEFT, width=40, wrap=250)
         self.export_text.grid(row=2, pady=10)
 
+        # Error label
+        self.save_error_label = Label(self.export_frame, font="arial 12 bold", text="", fg='red', justify=LEFT, wrap=250)
+        self.save_error_label.grid(row=3)
+
         # Filename Entry Box (row 3)
         self.filename_entry = Entry(self.export_frame, width=20, font="arial 14 bold", 
                                     justify=CENTER)
-        self.filename_entry.grid(row=3, pady=10)
+        self.filename_entry.grid(row=4, pady=10)
 
         # Save / Cancel Frame (row 5)
         self.save_cancel_frame = Frame(self.export_frame)
