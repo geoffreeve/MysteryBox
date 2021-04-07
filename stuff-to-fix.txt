@@ -9,3 +9,5 @@ Starting Amount: $??
 Final Balance: $??
 
 Amount won / lost: $??
+
+( Added save_error_label, need it to print errors)

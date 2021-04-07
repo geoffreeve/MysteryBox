@@ -592,12 +592,12 @@ class Export:
                 problem = "(No spaces allowed)"
             else:
                 problem = ("(No {}'s allowed".format(letter))
-            has_error = "yes"
+            has_errors = "yes"
             break
         
         if filename == "":
             problem = "Can't be blank"
-            has_error = 'yes'
+            has_errors = 'yes'
         
         if has_errors == "yes":
             # Display error message
@@ -626,6 +626,9 @@ class Export:
             # Add new line at the end of each item
             for item in game_history:
                 f.write(item + "\n")
+            self.export_box.destroy()
+            self.export_button.config(state=NORMAL)
+
 
 
 # main routine
