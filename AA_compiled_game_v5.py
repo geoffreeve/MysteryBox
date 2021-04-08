@@ -614,20 +614,23 @@ class Export:
             f = open(filename, "w+")
 
             # Heading for stats
-            f.write("Game Statistics\n\n")
+            f.write("***Game Statistics***\n\n")
 
             # Game stats
-            for round in game_stats:
-                f.write(str(round) + "\n")
+            f.write(str("Starting Balance: {}\nFinal Balance: {}\n".format(game_stats[0], game_stats[1])))
+
+            # Rounds played
+            f.write("Rounds played: {}\n".format(len(game_history)))
 
             # Heading for rounds
-            f.write("\nRound Details\n\n")
+            f.write("\nRound Details -\n\n")
 
             # Add new line at the end of each item
             for item in game_history:
                 f.write(item + "\n")
-            self.export_box.destroy()
-            self.export_button.config(state=NORMAL)
+
+            # Closes save window when save is successful
+            self.close_export(partner)
 
 
 

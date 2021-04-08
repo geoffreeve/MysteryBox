@@ -2,12 +2,14 @@ Remove help button on front page-done
 Remove print statements-done
 Fix current balance in stats dialogue-done
 
-Lets me save a blank file, doesn't prevent spaces etc
+export button not working after window closes.-done
+
+Lets me save a blank file, doesn't prevent spaces etc-done
 
 Improve text file
 Starting Amount: $??
 Final Balance: $??
 
-Amount won / lost: $??
+Amount won / lost: $??-done
 
 ( Added save_error_label, need it to print errors)
